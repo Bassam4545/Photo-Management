@@ -6,7 +6,7 @@ package PhotoManagement;
 public T data;
 public Node <T> Next;
 
-public Node (T val) {
+public Node(T val) {
 	data=val ;
 	Next=null;
 }
@@ -122,11 +122,11 @@ public class LinkedList<T> {
 		return false;
 	}
 	
-	public void findfirst() {
+	public void findFirst() {
 		current =head;
 	}
 	
-	public void findnext() {
+	public void findNext() {
 		current= current.Next;
 	}
 	

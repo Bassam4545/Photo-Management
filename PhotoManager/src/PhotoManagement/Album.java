@@ -1,4 +1,25 @@
 package PhotoManagement;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
 //------------------------------------------------------------------------------------------------------------
 //!!INVERTED INDEX ALBUM!!
 public class Album_inverted_index {
@@ -101,4 +122,6 @@ public class Album_inverted_index {
   public int getNbComps() {
       return manager.index.num_comp;
   }
-}
+  
+  */
+
