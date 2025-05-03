@@ -17,6 +17,7 @@ class BSTNode<T> {
 
 public class BST<T> {
 	private BSTNode<T> root, current;
+	int num_comp;
 
 	public BST() {
 		current = root = null;
@@ -54,6 +55,7 @@ public class BST<T> {
 	public boolean findKey(String k) {
 		BSTNode<T> p = root;
 		while (p != null) {
+			num_comp++;
 			current = p;
 			if (k.compareTo(p.key) == 0) {
 				return true;
